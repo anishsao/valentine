@@ -246,10 +246,10 @@ body {
 
 .cat-gif {
     width: 250px;
-    height: 200px;
-    object-fit: contain;
+    height: auto;
+    display: block;
     border-radius: 20px;
-    box-shadow: 0 10px 30px rgba(255, 107, 149, 0.3);
+    box-shadow: 0 10px 30px rgba(255, 107, 149, 0.5);
 }
 
 .love-message {
