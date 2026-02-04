@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Will You Be My Valentine?</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Nunito:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Floating hearts background -->
+    <div class="hearts-container" id="hearts"></div>
+
+    <!-- Custom cursor -->
+    <div class="custom-cursor" id="cursor">💕</div>
+
+    <!-- Question Page -->
+    <div class="container" id="question-page">
+        <div class="card">
+            <div class="card-hearts">
+                <span>💝</span>
+                <span>💖</span>
+                <span>💝</span>
+            </div>
+            <h1 class="title">Will you be my Valentine?</h1>
+            <div class="cute-bear">
+                <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcTJ5MnRhOHN6OXV2NjRxNnN6dHBnMGt5ZnBxNWU5cTJyNGZ5MnVhNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/cLS1cfxvGOPVpPIqES/giphy.gif" alt="Cute bear with heart" class="bear-gif">
+            </div>
+            <div class="buttons">
+                <button class="btn btn-yes" id="yes-btn">Yes! 💕</button>
+                <button class="btn btn-no" id="no-btn">No 😢</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Success Page -->
+    <div class="container hidden" id="success-page">
+        <div class="card success-card">
+            <div class="confetti" id="confetti"></div>
+            <h1 class="title success-title">YAYYYY!!! 🎉</h1>
+            <p class="success-subtitle">I knew you'd say yes!</p>
+            <div class="happy-cat">
+                <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaHU1d2xkNnNyMnNnbWF0OTFhbDQyM2IzZDk0eXJtdGE1b2xsNmtzaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/MDJ9IbxxvDUQM/giphy.gif" alt="Happy jumping cat" class="cat-gif">
+            </div>
+            <p class="love-message">You've made me the happiest person! 💖</p>
+            <div class="floating-hearts">
+                <span>💕</span>
+                <span>💗</span>
+                <span>💖</span>
+                <span>💝</span>
+                <span>💕</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
