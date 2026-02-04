@@ -189,7 +189,7 @@ body {
     background: linear-gradient(135deg, #b0bec5 0%, #90a4ae 100%);
     color: white;
     box-shadow: 0 8px 25px rgba(176, 190, 197, 0.4);
-    position: absolute;
+    position: relative;
     transition: all 0.2s ease-out;
 }
 
