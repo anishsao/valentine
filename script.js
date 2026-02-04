@@ -16,7 +16,7 @@ document.addEventListener('mouseup', () => {
 
 // Floating Hearts Background
 const heartsContainer = document.getElementById('hearts');
-const heartEmojis = ['💕', '💖', '💗', '💝', '💘', '❤️', '💓', '💞'];
+const heartEmojis = ['🦜💕', '🦥💖', '🐿️💗', '🐹💝', '🦎💘', '🐴❤️', '🦦💓', '🦍💞'];
 
 function createFloatingHeart() {
     const heart = document.createElement('div');
@@ -144,5 +144,5 @@ noBtn.addEventListener('mouseenter', () => {
 });
 
 noBtn.addEventListener('mouseleave', () => {
-    noBtn.textContent = 'No 😢';
+    noBtn.textContent = 'No 🥺';
 });
