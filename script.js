@@ -47,6 +47,7 @@ const yesBtn = document.getElementById('yes-btn');
 const noBtn = document.getElementById('no-btn');
 const questionPage = document.getElementById('question-page');
 const successPage = document.getElementById('success-page');
+const angryPage = document.getElementById('angry-page');
 
 // Yes Button Click Handler
 yesBtn.addEventListener('click', () => {
@@ -54,6 +55,14 @@ yesBtn.addEventListener('click', () => {
     successPage.classList.remove('hidden');
     createConfetti();
     document.title = 'YAYYYY!!! 💕';
+});
+
+// No Button Click Handler
+noBtn.addEventListener('click', () => {
+    questionPage.classList.add('hidden');
+    angryPage.classList.remove('hidden');
+    heartsContainer.classList.add('hidden');
+    document.title = '😾';
 });
 
 // No Button - Escape from mouse!
