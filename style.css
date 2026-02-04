@@ -222,6 +222,8 @@ body {
     -webkit-text-fill-color: transparent;
     background-clip: text;
     animation: rainbow 2s ease-in-out infinite;
+    position: relative;
+    z-index: 10;
 }
 
 @keyframes rainbow {
