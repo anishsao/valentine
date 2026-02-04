@@ -24,14 +24,14 @@ function createFloatingHeart() {
     heart.textContent = heartEmojis[Math.floor(Math.random() * heartEmojis.length)];
     heart.style.left = Math.random() * 100 + 'vw';
     heart.style.fontSize = (Math.random() * 20 + 15) + 'px';
-    heart.style.animationDuration = (Math.random() * 3 + 4) + 's';
+    heart.style.animationDuration = (Math.random() * 4 + 8) + 's';
     heart.style.animationDelay = Math.random() * 2 + 's';
     heartsContainer.appendChild(heart);
 
     // Remove heart after animation
     setTimeout(() => {
         heart.remove();
-    }, 8000);
+    }, 14000);
 }
 
 // Create hearts periodically
