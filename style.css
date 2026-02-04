@@ -43,13 +43,13 @@ body {
 .floating-heart {
     position: absolute;
     font-size: 20px;
-    animation: floatUp 6s ease-in infinite;
+    animation: floatDown 6s ease-in infinite;
     opacity: 0.6;
 }
 
-@keyframes floatUp {
+@keyframes floatDown {
     0% {
-        transform: translateY(100vh) rotate(0deg);
+        transform: translateY(-20vh) rotate(0deg);
         opacity: 0;
     }
     10% {
@@ -59,7 +59,7 @@ body {
         opacity: 0.6;
     }
     100% {
-        transform: translateY(-20vh) rotate(360deg);
+        transform: translateY(100vh) rotate(360deg);
         opacity: 0;
     }
 }
